@@ -1,0 +1,11 @@
+# Abaikan semua biar gak ikut build image docker
+**
+
+# Include hanya beberapa file dan folder yang diinginkan
+!go.mod
+!go.sum
+!/cmd
+!/internal
+!/pkg
+!/http-config.yml
+!/files

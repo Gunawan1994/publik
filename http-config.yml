@@ -1,0 +1,5 @@
+server:
+  http_port: ":1318"
+database:
+  driver: "postgres"
+  master: "postgres://alfa:password@postgres:5432/alfa?sslmode=disable"

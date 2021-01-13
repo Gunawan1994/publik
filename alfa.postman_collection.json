@@ -1,0 +1,194 @@
+{
+	"info": {
+		"_postman_id": "8a7a83e5-8f69-4996-b9cb-2fa4930bd444",
+		"name": "alfa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:1318/employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1318/employee",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1318/employee/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:1318/employee/1",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1318/employee/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1318/employee/2",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"employee",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1318/employee/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "full_name",
+							"value": "gunawan",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "13-02-1995",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2500000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:1318/employee/1",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1318/employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "full_name",
+							"value": "gunawanempat",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "bandung",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "13-02-1994",
+							"type": "text"
+						},
+						{
+							"key": "role_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2000000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:1318/employee",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1318/dogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1318/dogs",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"dogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1318/dogs/hound",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1318/dogs/hound",
+					"host": [
+						"localhost"
+					],
+					"port": "1318",
+					"path": [
+						"dogs",
+						"hound"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
